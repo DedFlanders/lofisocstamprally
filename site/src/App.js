@@ -25,7 +25,12 @@ function App() {
   const handleOnClick = () => {
     setShown(true);
 
-    setP(Math.floor((Math.random() * 10)));
+    let newP = Math.floor((Math.random() * 10))
+    while (newP === currentP) {
+      newP = Math.floor((Math.random() * 10));
+    }
+
+    setP(newP);
   }
 
   return (

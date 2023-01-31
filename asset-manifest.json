@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lofisocstamprally/static/css/main.ce19be17.css",
-    "main.js": "/lofisocstamprally/static/js/main.6e5788f0.js",
+    "main.js": "/lofisocstamprally/static/js/main.704c6e81.js",
     "static/js/787.dd4029b4.chunk.js": "/lofisocstamprally/static/js/787.dd4029b4.chunk.js",
     "index.html": "/lofisocstamprally/index.html",
     "main.ce19be17.css.map": "/lofisocstamprally/static/css/main.ce19be17.css.map",
-    "main.6e5788f0.js.map": "/lofisocstamprally/static/js/main.6e5788f0.js.map",
+    "main.704c6e81.js.map": "/lofisocstamprally/static/js/main.704c6e81.js.map",
     "787.dd4029b4.chunk.js.map": "/lofisocstamprally/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce19be17.css",
-    "static/js/main.6e5788f0.js"
+    "static/js/main.704c6e81.js"
   ]
 }

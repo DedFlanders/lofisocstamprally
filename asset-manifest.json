@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lofisocstamprally/static/css/main.1fbae255.css",
+    "main.js": "/lofisocstamprally/static/js/main.996078e0.js",
+    "static/js/787.dd4029b4.chunk.js": "/lofisocstamprally/static/js/787.dd4029b4.chunk.js",
+    "index.html": "/lofisocstamprally/index.html",
+    "main.1fbae255.css.map": "/lofisocstamprally/static/css/main.1fbae255.css.map",
+    "main.996078e0.js.map": "/lofisocstamprally/static/js/main.996078e0.js.map",
+    "787.dd4029b4.chunk.js.map": "/lofisocstamprally/static/js/787.dd4029b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fbae255.css",
+    "static/js/main.996078e0.js"
+  ]
+}

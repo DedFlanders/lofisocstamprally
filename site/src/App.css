@@ -1,0 +1,27 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.mainButton {
+  width: 800px;
+  height: 300px;
+  border: none;
+  border-radius: 3000px;
+  transition: background-color 0.2s;
+  background-color: rgb(175, 110, 235);
+  font-size: 100px;
+  transition-duration: 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+.mainButton:hover {
+  background-color: rgb(82, 82, 214);
+  color: white;
+}

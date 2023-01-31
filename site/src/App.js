@@ -1,4 +1,5 @@
 import './App.css';
+import { useState, useEffect } from 'react';
 
 const prompts = [
   "Add your favourite non-english song",
@@ -13,16 +14,15 @@ const prompts = [
   "Add your favourite song of all time"
 ]
 
-function givePrompt() {
-  const random = Math.floor((Math.random() * 10));
-  alert("breh");
-}
-
 function App() {
+
+  const [currentP, setP] = useState(0);
+
   return (
     <div className="App">
       <header className="App-header">
-        <button className = "mainButton" onClick={givePrompt}> Click For Prompt</button>
+        <button className = "mainButton" onClick={() => setP(Math.floor((Math.random() * 10)))}> Click For Prompt</button>
+        <h1> {prompts[currentP]} </h1>
       </header>
     </div>
   );

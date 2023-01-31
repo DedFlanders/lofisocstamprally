@@ -10,16 +10,27 @@
 }
 
 .mainButton {
-  width: 800px;
-  height: 300px;
+  width: 200px;
+  height: 50px;
   border-radius: 300px;
   background-color:rgb(166, 112, 216);
   color: white;
   transition-duration: 0.5s;
-  font-size: 80px;
+  font-size: 20px;
   border: none;
 }
 
 .mainButton:hover {
   background-color: rgb(40, 81, 192);
 }
+
+.prompt {
+  text-align: center;
+}
+
+.textStyle {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+

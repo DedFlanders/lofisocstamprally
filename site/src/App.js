@@ -11,18 +11,29 @@ const prompts = [
   "Add the last song you listened to",
   "Add a song by your favourite artist",
   "Add a song that makes you feel happy",
-  "Add your favourite song of all time"
+  "Add your favourite song of all time",
+  "\u2800"
 ]
 
 function App() {
 
-  const [currentP, setP] = useState(0);
+  const [currentP, setP] = useState(10);
+
+  // 0 not shown, 1 shown
+  const [shown, setShown] = useState(false);
+
+  const handleOnClick = () => {
+    setShown(true);
+
+    setP(Math.floor((Math.random() * 10)));
+  }
 
   return (
     <div className="App">
       <header className="App-header">
-        <button className = "mainButton" onClick={() => setP(Math.floor((Math.random() * 10)))}> Click For Prompt</button>
-        <h1> {prompts[currentP]} </h1>
+        <p className = "textStyle"> Click the button below to generate a prompt, then add a song to our spotify playlist based on the prompt!</p>
+        <h1 className = "prompt"> {shown ? prompts[currentP] : prompts[10]} </h1>
+        <button className = "mainButton" onClick={handleOnClick}> Click For Prompt</button>
       </header>
     </div>
   );

@@ -19,7 +19,7 @@ function App() {
 
   const [currentP, setP] = useState(10);
 
-  // 0 not shown, 1 shown
+  // 0 not shown, 1 shown, do i buycwadijaa
   const [shown, setShown] = useState(false);
 
   const handleOnClick = () => {

@@ -1,5 +1,5 @@
 .App-header {
-  background-color: #282c34;
+  background-color: #00010e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,28 +13,59 @@
   width: 200px;
   height: 50px;
   border-radius: 300px;
-  background-color:rgb(166, 112, 216);
+  background-color: rgb(116, 65, 175);
   color: white;
   transition-duration: 0.5s;
   font-size: 20px;
   border: none;
   position: absolute;
-  top: 600px;
+  top: 650px;
+
+  font-family: 'Hind', sans-serif;
+
+
 }
 
 .mainButton:hover {
-  background-color: rgb(40, 81, 192);
+  background-color:rgb(166, 112, 216);
 }
 
 .prompt {
   text-align: center;
+  font-family: 'Proza Libre', sans-serif; 
+
 }
 
 .textStyle {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   position: absolute;
-  top: 50px;
+  top: 200px;
+  font-family: 'Hind', sans-serif;
+
 }
 
+.title {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif; 
+
+  background: radial-gradient(circle, #F48FB1 0%,  #CE93D8 20%, #B2EBF2 40%, #A5D6A7 60%, #B39DDB 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 7s linear infinite alternate;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}

@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const prompts = [
   "Add your favourite non-english song",
@@ -36,7 +36,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className = "textStyle"> Click the button below to generate a prompt, then add a song to our spotify playlist based on the prompt!</p>
+        <h1 className = "title"> lo-fi; society Stamp Rally Community Playlist Activity</h1>
+        <p className = "textStyle"> {'\u2728'} Click the button to generate a new prompt, then add a song to our playlist based on the prompt! {'\u2728'}</p>
         <h1 className = "prompt"> {shown ? prompts[currentP] : prompts[10]} </h1>
         <button className = "mainButton" onClick={handleOnClick}> Click For Prompt</button>
       </header>
